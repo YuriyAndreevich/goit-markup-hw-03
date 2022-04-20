@@ -120,6 +120,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
+  border-radius: 4px;
   text-align: center;
   cursor: pointer;
   background-color: var(--bg-accent-color);
@@ -179,8 +180,8 @@ body {
   text-transform: uppercase;
   color: var(--main-color);
 }
-.activity {
-  padding-bottom: 94px;
+.section-activity {
+  padding-top: 0px;
 }
 .list-activity {
   display: flex;
@@ -268,6 +269,7 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
+  border-radius: 4px;
   text-align: center;
   cursor: pointer;
   letter-spacing: 0.06em;
@@ -286,12 +288,12 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
+  border-radius: 4px;
   text-align: center;
   cursor: pointer;
   color: var(--main-color);
   background: var(--bg-light-color);
   letter-spacing: 0.03em;
-  margin-left: 8px;
 }
 .button-portfolio:hover,
 .button-portfolio:focus {
@@ -313,6 +315,12 @@ body {
 }
 .item-filter:not(:last-child) {
   margin-right: 8px;
+}
+.item-button:not(:last-child) {
+  margin-right: 8px;
+}
+.item-button {
+  box-sizing: content-box;
 }
 .list-example {
   display: flex;
@@ -355,7 +363,6 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  margin-top: 9px;
 }
 .address-link-first {
   font-style: normal;
@@ -369,6 +376,6 @@ body {
 .address-link:focus {
   color: var(--bg-accent-color);
 }
-.item-address {
-  margin-bottom: 9px;
+.address-item {
+  margin-top: 9px;
 }
