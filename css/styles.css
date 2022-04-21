@@ -320,7 +320,7 @@ body {
   margin-right: 8px;
 }
 .item-button {
-  box-sizing: content-box;
+  border: 0;
 }
 .list-example {
   display: flex;
