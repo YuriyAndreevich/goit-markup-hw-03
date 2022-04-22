@@ -294,6 +294,7 @@ body {
   color: var(--main-color);
   background: var(--bg-light-color);
   letter-spacing: 0.03em;
+  border: 0;
 }
 .button-portfolio:hover,
 .button-portfolio:focus {
