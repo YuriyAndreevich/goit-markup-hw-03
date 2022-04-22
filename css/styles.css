@@ -77,8 +77,7 @@ body {
 .logo-header {
   color: var(--black-color);
 }
-.link-logo,
-.logo-header {
+.link-logo {
   padding-top: 24px;
   padding-bottom: 24px;
 }
